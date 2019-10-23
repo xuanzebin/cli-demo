@@ -6,9 +6,9 @@ const chalk = require('chalk')
 
 program
     // .command('module', '初始化')
-    .command('module', '模块')
+    .command('module', '这是模块')
     .command('init [initName]', '初始化')
-    .parse(process.argv) 
+    .parse(process.argv)  
     // .alias('m')
     // .description('创建新的模块')
     // .option('--name [moduleName]')
