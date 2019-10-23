@@ -1,0 +1,18 @@
+.vscode
+
+# NPM
+test.js
+
+node_modules
+yarn-error.log
+package-lock.json
+
+# build
+dist
+packages/**/package
+packages/**/modules
+packages/**/config.js
+packages/**/config.json
+packages/**/component/index.md
+*.tgz
+*.tar.gz

@@ -1,0 +1,11 @@
+#! /usr/bin/env node 
+
+const program = require('commander')
+const inquirer = require('inquirer')
+
+const yeoman = require('./src/yeoman')
+
+program
+  .parse(process.argv)
+
+yeoman(program)
