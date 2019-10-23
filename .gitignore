@@ -1,0 +1,13 @@
+.vscode
+
+# NPM
+test.js
+
+node_modules
+yarn-error.log
+package-lock.json
+
+# build
+dist
+*.tgz
+*.tar.gz
